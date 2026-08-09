@@ -8,3 +8,7 @@ function updateCount() {
     const done = list.querySelectorAll("li.done").length;
     count.textContent = `${total} tasks . ${done} done`;
 }
+
+from.addEventListener("submit", (e) => {
+    e.preventDefault();
+})
