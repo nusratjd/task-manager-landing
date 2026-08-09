@@ -71,3 +71,7 @@ body {
     flex: 1;
     cursor: pointer;
 }
+.list li.done span {
+    text-decoration: line-through;
+    color: #999;
+}
