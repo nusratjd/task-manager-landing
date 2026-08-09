@@ -4,5 +4,5 @@ const list = document.getElementById("list");
 const count = document.getElementById("count");
 
 function updateCount() {
-    
+    const total = list.children.length;
 }
