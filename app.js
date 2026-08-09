@@ -11,4 +11,5 @@ function updateCount() {
 
 from.addEventListener("submit", (e) => {
     e.preventDefault();
+    const li = document.createElement("li");
 })
