@@ -19,3 +19,6 @@ body {
     letter-spacing: 2px;
     margin-bottom: 24px;
 }
+.hero h1 {
+    font-size: 30px;
+}
