@@ -75,3 +75,11 @@ body {
     text-decoration: line-through;
     color: #999;
 }
+.list li .del {
+    background: #ffe;
+    color: #c00;
+    border: none;
+    padding:  5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
