@@ -55,3 +55,6 @@ body {
     cursor: pointer;
     font-weight: 700;
 }
+.list li {
+    list-style: none;
+}
