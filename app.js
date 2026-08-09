@@ -26,5 +26,6 @@ list.addEventListener("click", (e) => {
 });
 
 document.getElementById("clear").addEventListener("click", () => {
-    
+    list.querySelectorAll("li.done").forEach(li => li.remove());
+
 })
