@@ -16,5 +16,8 @@ from.addEventListener("submit", (e) => {
     list.appendChild(li);
     input.value = "";
     updateCount();
+});
 
+list.addEventListener("click", (e) => {
+    
 })
