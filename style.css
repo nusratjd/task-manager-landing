@@ -22,3 +22,7 @@ body {
 .hero h1 {
     font-size: 30px;
 }
+.hero p {
+    opacity: 0.9;
+    margin-top: 6px;
+}
