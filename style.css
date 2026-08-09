@@ -39,3 +39,6 @@ body {
     gap: 8px;
     margin-bottom: 14px;
 }
+.composer input {
+    flex: 1;
+}
