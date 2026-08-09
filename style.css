@@ -83,3 +83,10 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+.stats {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+}
