@@ -90,3 +90,10 @@ body {
     font-size: 13px;
     color: #666;
 }
+.stats button {
+    background: none;
+    border: 1px solid #d0d5d0;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer
+}
