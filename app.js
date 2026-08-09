@@ -19,5 +19,6 @@ from.addEventListener("submit", (e) => {
 });
 
 list.addEventListener("click", (e) => {
+    const li = e.target.closest("li");
     
 })
