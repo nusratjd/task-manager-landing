@@ -26,3 +26,11 @@ body {
     opacity: 0.9;
     margin-top: 6px;
 }
+.app {
+    max-width: 520px;
+    margin: -40px auto 30px;
+    background: #4a7c4a;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
