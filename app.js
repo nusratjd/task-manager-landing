@@ -22,5 +22,5 @@ list.addEventListener("click", (e) => {
     const li = e.target.closest("li");
     if (!li) return;
     if (e.target.matches(".del")) {li.remove(); updateCount(); return; }
-
-})
+    if (e.target.tagName === "SPAN") {li.classList.toggle("done"); updateCount();}
+});
