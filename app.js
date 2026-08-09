@@ -21,6 +21,6 @@ from.addEventListener("submit", (e) => {
 list.addEventListener("click", (e) => {
     const li = e.target.closest("li");
     if (!li) return;
-    if (e.target.matches(".del")) 
+    if (e.target.matches(".del")) {li.remove(); updateCount(); return; }
 
 })
