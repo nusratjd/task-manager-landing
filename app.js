@@ -15,5 +15,6 @@ from.addEventListener("submit", (e) => {
     li.innerHTML = `<span>${input.value}</span><button class="del"*</button>`;
     list.appendChild(li);
     input.value = "";
+    updateCount();
 
 })
