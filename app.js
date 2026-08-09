@@ -24,3 +24,7 @@ list.addEventListener("click", (e) => {
     if (e.target.matches(".del")) {li.remove(); updateCount(); return; }
     if (e.target.tagName === "SPAN") {li.classList.toggle("done"); updateCount();}
 });
+
+document.getElementById("clear").addEventListener("click", () => {
+    
+})
