@@ -5,4 +5,5 @@ const count = document.getElementById("count");
 
 function updateCount() {
     const total = list.children.length;
+    const done = list.querySelectorAll("li.done").length;
 }
