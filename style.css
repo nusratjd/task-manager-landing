@@ -67,3 +67,7 @@ body {
     margin-bottom: 6px;
     background: #f5f7fb;
 }
+.list li span {
+    flex: 1;
+    cursor: pointer;
+}
